@@ -1,13 +1,13 @@
 // ১. জব ডাটা অবজেক্ট
 let jobs = [
-    { id: 1, companyName: "Google", position: "Frontend Developer", location: "Remote", type: "Full-time", salary: "120k - 150k", description: "Work on cutting-edge UI for global search products.", status: "All" },
+    { id: 1, companyName: "Vivasoft", position: "Frontend Developer", location: "Remote", type: "Full-time", salary: "120k - 150k", description: "Work on cutting-edge UI for global search products.", status: "All" },
     { id: 2, companyName: "Meta", position: "Product Designer", location: "Menlo Park, CA", type: "Full-time", salary: "130k - 160k", description: "Design immersive experiences for the future of social tech.", status: "All" },
     { id: 3, companyName: "Netflix", position: "UI Engineer", location: "Los Gatos", type: "Contract", salary: "90/hr", description: "Optimize streaming interfaces for smart TV applications.", status: "All" },
-    { id: 4, companyName: "Amazon", position: "Backend Developer", location: "Seattle, WA", type: "Full-time", salary: "110k - 140k", description: "Scale cloud infrastructure for high-traffic retail events.", status: "All" },
+    { id: 4, companyName: "Leadsoft", position: "Backend Developer", location: "Dhaka", type: "Full-time", salary: "110k - 140k", description: "Scale cloud infrastructure for high-traffic retail events.", status: "All" },
     { id: 5, companyName: "Tesla", position: "Software Architect", location: "Austin, TX", type: "Full-time", salary: "150k - 180k", description: "Lead software architecture for autonomous driving systems.", status: "All" },
-    { id: 6, companyName: "Adobe", position: "Creative Lead", location: "Remote", type: "Part-time", salary: "70k - 85k", description: "Focus on user-centric tools for next-gen digital design.", status: "All" },
+    { id: 6, companyName: "BJIT", position: "Creative Lead", location: "Remote", type: "Part-time", salary: "70k - 85k", description: "Focus on user-centric tools for next-gen digital design.", status: "All" },
     { id: 7, companyName: "Shopify", position: "Fullstack Dev", location: "Toronto, CA", type: "Full-time", salary: "100k - 130k", description: "Support merchants by building robust e-commerce features.", status: "All" },
-    { id: 8, companyName: "Spotify", position: "Data Scientist", location: "Stockholm", type: "Full-time", salary: "95k - 120k", description: "Analyze listener habits to improve recommendation engines.", status: "All" }
+    { id: 8, companyName: "BRAC IT", position: "Data Scientist", location: "Dhaka", type: "Full-time", salary: "95k - 120k", description: "Analyze listener habits to improve recommendation engines.", status: "All" }
 ];
 
 let activeFilter = 'All';
