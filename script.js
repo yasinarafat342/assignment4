@@ -1,4 +1,4 @@
-// ১. জব ডাটা অবজেক্ট
+
 let jobs = [
     { id: 1, companyName: "Vivasoft", position: "Frontend Developer", location: "Remote", type: "Full-time", salary: "120k - 150k", description: "Work on cutting-edge UI for global search products.", status: "All" },
     { id: 2, companyName: "Meta", position: "Product Designer", location: "Menlo Park, CA", type: "Full-time", salary: "130k - 160k", description: "Design immersive experiences for the future of social tech.", status: "All" },
@@ -12,7 +12,6 @@ let jobs = [
 
 let activeFilter = 'All';
 
-// ২. মেইন রেন্ডার ফাংশন
 function renderUI() {
     const container = document.getElementById('jobs-container');
     const emptyState = document.getElementById('empty-state');
@@ -33,7 +32,6 @@ function renderUI() {
     }
 }
 
-// ৩. কার্ডের HTML জেনারেট করা (সোজাসুজি বা Vertical ডিজাইন)
 function createCardHTML(job) {
     let statusText = "NOT APPLIED";
     let statusClass = "bg-blue-50 text-blue-900";
@@ -85,7 +83,6 @@ function createCardHTML(job) {
     `;
 }
 
-// ৪. ফাংশনগুলো আগের মতোই থাকবে
 function setStatus(id, status) {
     const job = jobs.find(j => j.id === id);
     if (job) {
